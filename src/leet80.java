@@ -14,7 +14,7 @@ public class leet80 {
                     break;
             }
         }
-        for(int i=nums.length-1; i>0; i--){//뒤에서 부터
+        for(int i=nums.length-1; i>0; i--){//뒤에서부터 탐색
             if(nums[i] == Integer.MIN_VALUE){//MIN_VALUE 공간의 경우
                 for(int j=i; j<nums.length-1; j++){//뒤에 숫자 끌어와서 MIN을 가장 뒤로 보내기
                     int temp = nums[j];
